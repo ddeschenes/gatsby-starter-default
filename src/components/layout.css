@@ -620,3 +620,48 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+@media screen and (min-width: 576px) {
+  max-width: 540px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container .row > div {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center !important;
+}

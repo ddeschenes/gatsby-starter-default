@@ -8,13 +8,19 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <section id="section-bg-first" class="section-bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h1 class="text-center">De la cueillette à votre assiette</h1>
+            <p>
+              Nos cueilleurs prennent soin de ne pas altérer les produits afin
+              qu'ils soient le plus intact possible dans votre assiette.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 

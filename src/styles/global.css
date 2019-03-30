@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #52d3aa;
+  transition: 0.1s;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #52d3aa;
+  text-decoration: none;
+  outline: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.font-primary {
+  font-family: "Work Sans", sans-serif;
+}
+
+.font-secondary {
+  font-family: "Dancing Script", cursive;
+}
