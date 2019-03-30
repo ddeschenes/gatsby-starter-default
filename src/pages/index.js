@@ -10,14 +10,30 @@ import ImageContact from "../images/bg-shipping-1.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Home"
+      keywords={[
+        `produits boréales`,
+        `saveurs boréales`,
+        `produit du terroir`,
+        `épices`,
+        `thés`,
+        `fruits thé du labrador`,
+        `poivre des dunes`,
+        `chaga`,
+        `quenouille`,
+        `salicorne`,
+        `récoltes`,
+        `tête de violon`,
+      ]}
+    />
     <Section
       id="section-bg-first"
       className="section-bg-info"
       backgroundImage={ImageFirst}
     >
-      <div class="text-center">
-        <h2 class="text-center">De la cueillette à votre assiette</h2>
+      <div className="text-center">
+        <h2 className="text-center">De la cueillette à votre assiette</h2>
         <p>
           Nos cueilleurs prennent soin de ne pas altérer les produits afin
           qu'ils soient le plus intact possible dans votre assiette.
@@ -26,7 +42,7 @@ const IndexPage = () => (
     </Section>
     <Section id="section-about" className="section-info">
       <div>
-        <h2 class="text-center">Description du projet</h2>
+        <h2 className="text-center">Description du projet</h2>
         <p>
           Le manque de ressources statistiques et techniques des récoltes et le
           besoin d’établir des liens entre les récolteurs et les acheteurs sont
@@ -55,7 +71,7 @@ const IndexPage = () => (
           planification des récoltes et de la recherche continue.
         </p>
         <br />
-        <h1 class="text-center">Les objectifs de l'entreprise</h1>
+        <h1 className="text-center">Les objectifs de l'entreprise</h1>
         <ul>
           <li>
             Récolter, organiser, transformer et expédier les produits du terroir
@@ -92,7 +108,7 @@ const IndexPage = () => (
       className="section-bg-info"
       backgroundImage={ImageSecond}
     >
-      <div class="text-center">
+      <div className="text-center">
         <h2>Des produits frais et variés</h2>
         <p>Des produits de nos forêts boréales de grande qualité.</p>
       </div>
@@ -103,7 +119,7 @@ const IndexPage = () => (
       backgroundImage={ImageContact}
     >
       <div>
-        <div class="text-center">
+        <div className="text-center">
           <h2>Contactez-nous</h2>
           <p>
             Les Saveurs Boréales <br />

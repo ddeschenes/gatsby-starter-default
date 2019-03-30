@@ -8,8 +8,8 @@ const Section = ({ id, className, backgroundImage, children }) => {
     : {}
   return (
     <section id={id} className={className} style={style}>
-      <div class="container">
-        <div class="row">{children}</div>
+      <div className="container">
+        <div className="row">{children}</div>
       </div>
     </section>
   )

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Les Saveurs Boréales`,
+    description: `Produits boréales dans la famille des petits fruits, des thés et des épices`,
+    author: `Les Saveurs Boréales`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

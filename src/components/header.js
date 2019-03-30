@@ -5,22 +5,24 @@ import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav class="navbar">
-      <div class="navbar-collapse">
-        <Link class="navbar-brand">Les Saveurs Boréales</Link>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <Link class="nav-link" to="/#section-about">
+    <nav className="navbar">
+      <div className="navbar-collapse">
+        <Link className="navbar-brand" to="/#">
+          Les Saveurs Boréales
+        </Link>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/#section-about">
               <span>À propos</span>
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link">
+          <li className="nav-item">
+            <Link className="nav-link" to="/#section-products">
               <span>Produits</span>
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/#section-contact">
+          <li className="nav-item">
+            <Link className="nav-link" to="/#section-contact">
               <span>Contact</span>
             </Link>
           </li>
