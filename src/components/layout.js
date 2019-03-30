@@ -13,6 +13,11 @@ import Header from "./header"
 import "./layout.css"
 import Footer from "./footer"
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`

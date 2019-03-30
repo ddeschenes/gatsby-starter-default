@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
         <Link class="navbar-brand">Les Saveurs Boréales</Link>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <Link class="nav-link">
+            <Link class="nav-link" to="/#section-about">
               <span>À propos</span>
             </Link>
           </li>
@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link">
+            <Link class="nav-link" to="/#section-contact">
               <span>Contact</span>
             </Link>
           </li>
