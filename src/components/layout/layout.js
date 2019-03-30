@@ -9,9 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Header from "../header/header"
+import Footer from "../footer/footer"
+
 import "./layout.css"
-import Footer from "./footer"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require

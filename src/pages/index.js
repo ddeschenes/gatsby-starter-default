@@ -1,13 +1,13 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import Section from "../components/section"
+import Section from "../components/section/section"
 
 import ImageFirst from "../images/bg-nature-2.jpg"
 import ImageSecond from "../images/bg-nature-3.jpg"
 import ImageContact from "../images/bg-shipping-1.jpg"
-import Products from "../components/products"
+import Products from "../components/products/products"
 
 const IndexPage = () => (
   <Layout>
