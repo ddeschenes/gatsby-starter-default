@@ -2,9 +2,13 @@ footer {
   background: #333333;
   font-size: 1.075rem;
   color: #7f7f7f;
-  padding: 1rem;
+  padding: 0;
 }
 
-footer p {
+footer .container .row {
+  padding: 1rem 0;
+}
+
+footer .container .row p {
   margin: 0;
 }

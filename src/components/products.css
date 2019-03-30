@@ -1,0 +1,19 @@
+.product-list {
+  padding: 2rem 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-list .product-list-item {
+  flex: 0 0 50%;
+  text-align: justify;
+  padding-right: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .product-list .product-list-item {
+    flex: 0 0 100%;
+  }
+}

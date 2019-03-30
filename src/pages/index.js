@@ -7,11 +7,12 @@ import Section from "../components/section"
 import ImageFirst from "../images/bg-nature-2.jpg"
 import ImageSecond from "../images/bg-nature-3.jpg"
 import ImageContact from "../images/bg-shipping-1.jpg"
+import Products from "../components/products"
 
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Home"
+      title="Les Saveurs Boréales"
       keywords={[
         `produits boréales`,
         `saveurs boréales`,
@@ -112,6 +113,9 @@ const IndexPage = () => (
         <h2>Des produits frais et variés</h2>
         <p>Des produits de nos forêts boréales de grande qualité.</p>
       </div>
+    </Section>
+    <Section id="section-products" className="section-info">
+      <Products />
     </Section>
     <Section
       id="section-contact"

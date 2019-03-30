@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Les Saveurs Boréales`,
+    title: `Produits Boréales Nord-Côtiers`,
     description: `Produits boréales dans la famille des petits fruits, des thés et des épices`,
     author: `Les Saveurs Boréales`,
   },
@@ -25,6 +25,13 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
