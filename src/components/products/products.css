@@ -36,7 +36,8 @@
 
 @media screen and (max-width: 992px) {
   .product-list .product-list-item {
-    flex: 0 0 100%;
+    flex: 0 1 100%;
+    max-width: 100%;
   }
 
   .product-list .product-list-item .gatsby-image-wrapper {
