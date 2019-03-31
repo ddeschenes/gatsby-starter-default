@@ -7,6 +7,8 @@ import Section from "../components/section/section"
 import ImageFirst from "../images/bg-nature-2.jpg"
 import ImageSecond from "../images/bg-nature-3.jpg"
 import ImageContact from "../images/bg-shipping-1.jpg"
+import ImageHome from "../images/img-home.jpg"
+
 import Products from "../components/products/products"
 
 const IndexPage = () => (
@@ -44,6 +46,7 @@ const IndexPage = () => (
     <Section id="section-about" className="section-info">
       <div>
         <h1 className="text-center">Description du projet</h1>
+        <img className="block-center" src={ImageHome} />
         <p>
           Le manque de ressources statistiques et techniques des récoltes et le
           besoin d’établir des liens entre les récolteurs et les acheteurs sont
