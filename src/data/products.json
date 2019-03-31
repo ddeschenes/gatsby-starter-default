@@ -3,8 +3,7 @@
     "id": "2",
     "title": "Thé du labrador",
     "description": "Les feuilles donnent un thé au goût de sapinage, à effet calmant et qui peut être un substitut aux tisanes de tilleul. Le thé est non seulement somnifère, mais astringent, digestif et calmant pour la toux.",
-    "image": "./images/products/chaga-1.jpg",
-    "filename": "chaga-instruction.pdf"
+    "image": "./images/products/chaga-1.jpg"
   },
   {
     "id": "1",
@@ -17,28 +16,24 @@
     "id": "6",
     "title": "Morille",
     "description": "La morille est caractérisé par sa chair assez mince, cassante, blanchâtre, à odeur et saveurs faibles. Elle est très recherchée.",
-    "image": "./images/products/chaga-1.jpg",
-    "filename": "chaga-instruction.pdf"
+    "image": "./images/products/chaga-1.jpg"
   },
   {
     "id": "5",
     "title": "Quenouille",
     "description": "Le coeur blanc de la quenouille, débarassée des 2-3 enveloppes extérieures fibreuses, se consomme après une cuisson de 2-3 minutes dans l'eau bouillante.",
-    "image": "./images/products/chaga-1.jpg",
-    "filename": "chaga-instruction.pdf"
+    "image": "./images/products/chaga-1.jpg"
   },
   {
     "id": "4",
     "title": "Salicorne",
     "description": "La salicorne a un goût salé. La jeune plante, avant la floraison, remplace le sel dans plusieurs plats et se mange crue ou bouillie.",
-    "image": "./images/products/chaga-1.jpg",
-    "filename": "chaga-instruction.pdf"
+    "image": "./images/products/chaga-1.jpg"
   },
   {
     "id": "3",
     "title": "Tête de violon",
     "description": "La tête de violon remplace agréablement les asperges dans les repas. Elle est riche en fer.",
-    "image": "./images/products/chaga-1.jpg",
-    "filename": "chaga-instruction.pdf"
+    "image": "./images/products/chaga-1.jpg"
   }
 ]

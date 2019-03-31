@@ -19,6 +19,15 @@
   font-weight: 600;
   margin-bottom: 1.45rem;
   display: block;
+  text-align: center;
+}
+
+.product-list .product-list-item .gatsby-image-wrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  left: 30%;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 992px) {

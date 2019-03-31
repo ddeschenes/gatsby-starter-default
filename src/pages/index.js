@@ -34,7 +34,7 @@ const IndexPage = () => (
       backgroundImage={ImageFirst}
     >
       <div className="text-center">
-        <h2 className="text-center">De la cueillette à votre assiette</h2>
+        <h1 className="text-center">De la cueillette à votre assiette</h1>
         <p>
           Nos cueilleurs prennent soin de ne pas altérer les produits afin
           qu'ils soient le plus intact possible dans votre assiette.
@@ -43,7 +43,7 @@ const IndexPage = () => (
     </Section>
     <Section id="section-about" className="section-info">
       <div>
-        <h2 className="text-center">Description du projet</h2>
+        <h1 className="text-center">Description du projet</h1>
         <p>
           Le manque de ressources statistiques et techniques des récoltes et le
           besoin d’établir des liens entre les récolteurs et les acheteurs sont
@@ -110,7 +110,7 @@ const IndexPage = () => (
       backgroundImage={ImageSecond}
     >
       <div className="text-center">
-        <h2>Des produits frais et variés</h2>
+        <h1>Des produits frais et variés</h1>
         <p>Des produits de nos forêts boréales de grande qualité.</p>
       </div>
     </Section>
@@ -124,7 +124,7 @@ const IndexPage = () => (
     >
       <div>
         <div className="text-center">
-          <h2>Contactez-nous</h2>
+          <h1>Contactez-nous</h1>
           <p>
             Les Saveurs Boréales <br />
             Russel Tremblay <br />
