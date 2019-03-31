@@ -49,12 +49,17 @@ const renderProduct = product => {
       target="_blank"
     >
       {product.title}
-      <Img fluid={product.image.childImageSharp.fluid} />
+      <div className="block-center">
+        <Img
+          className="block-center"
+          fluid={product.image.childImageSharp.fluid}
+        />
+      </div>
     </a>
   ) : (
     <Fragment>
       <h3 className="product-title">{product.title}</h3>
-      <div className="gatsby-image-wrapper" />
+      <div className="block-center gatsby-image-wrapper" />
     </Fragment>
   )
 
