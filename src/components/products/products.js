@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql, useStaticQuery, withPrefix } from "gatsby"
 import Img from "gatsby-image"
 
@@ -49,15 +49,18 @@ const renderProduct = product => {
       target="_blank"
     >
       {product.title}
+      <Img fluid={product.image.childImageSharp.fluid} />
     </a>
   ) : (
-    <h3 className="product-title">{product.title}</h3>
+    <Fragment>
+      <h3 className="product-title">{product.title}</h3>
+      <div className="gatsby-image-wrapper" />
+    </Fragment>
   )
 
   return (
     <li class="product-list-item">
-      <h3>{title}</h3>
-      <Img fluid={product.image.childImageSharp.fluid} />
+      {title}
       <p>{product.description}</p>
     </li>
   )

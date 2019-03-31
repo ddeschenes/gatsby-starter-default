@@ -26,12 +26,19 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  left: 30%;
-  margin-bottom: 1rem;
+  left: 31%;
+  margin: 1.45rem 0;
+  background-color: #7f7f7f;
+  position: relative;
 }
 
 @media screen and (max-width: 992px) {
   .product-list .product-list-item {
     flex: 0 0 100%;
+    margin: 2rem 0;
+  }
+
+  .product-list .product-list-item .gatsby-image-wrapper {
+    left: 27.5%;
   }
 }
