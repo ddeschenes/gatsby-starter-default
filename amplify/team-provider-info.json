@@ -1,0 +1,26 @@
+{
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "lsb-website-20190331172142-authRole",
+      "UnauthRoleArn": "arn:aws:iam::704414245002:role/lsb-website-20190331172142-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::704414245002:role/lsb-website-20190331172142-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "lsb-website-20190331172142-deployment",
+      "UnauthRoleName": "lsb-website-20190331172142-unauthRole",
+      "StackName": "lsb-website-20190331172142",
+      "StackId": "arn:aws:cloudformation:us-east-1:704414245002:stack/lsb-website-20190331172142/fab89140-53fa-11e9-8171-0a0bad6f0bfa"
+    }
+  },
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "lsb-website-20190331173804-authRole",
+      "UnauthRoleArn": "arn:aws:iam::704414245002:role/lsb-website-20190331173804-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::704414245002:role/lsb-website-20190331173804-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "lsb-website-20190331173804-deployment",
+      "UnauthRoleName": "lsb-website-20190331173804-unauthRole",
+      "StackName": "lsb-website-20190331173804",
+      "StackId": "arn:aws:cloudformation:us-east-1:704414245002:stack/lsb-website-20190331173804/43d89710-53fd-11e9-b5f9-0a5ca37ccc16"
+    }
+  }
+}

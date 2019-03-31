@@ -1,0 +1,21 @@
+.section-bg-info {
+  color: #333333;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.section-bg-info .row {
+  background: #fff;
+  opacity: 0.85;
+}
+
+.section-info {
+  padding: 60px 0px;
+  color: #333333;
+  background: #fff;
+}

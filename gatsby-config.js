@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Produits Boréales Nord-Côtiers`,
+    description: `Produits boréales dans la famille des petits fruits, des thés et des épices`,
+    author: `Les Saveurs Boréales`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `les-saveurs-boreales`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/lsb-logo.jpg`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
