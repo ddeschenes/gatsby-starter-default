@@ -49,26 +49,30 @@ const renderProduct = product => {
       target="_blank"
     >
       {product.title}
-      <div className="block-center">
-        <Img
-          className="block-center"
-          fluid={product.image.childImageSharp.fluid}
-        />
-      </div>
+      {(product.image && (
+        <div className="block-center">
+          <Img
+            className="block-center"
+            fluid={product.image.childImageSharp.fluid}
+          />
+        </div>
+      )) || <div className="block-center gatsby-image-wrapper" />}
     </a>
   ) : (
     <Fragment>
       <h3 className="product-title">{product.title}</h3>
-      <div className="block-center gatsby-image-wrapper" />
+      {(product.image && (
+        <div className="block-center">
+          <Img
+            className="block-center"
+            fluid={product.image.childImageSharp.fluid}
+          />
+        </div>
+      )) || <div className="block-center gatsby-image-wrapper" />}
     </Fragment>
   )
 
-  return (
-    <li class="product-list-item">
-      {title}
-      <p>{product.description}</p>
-    </li>
-  )
+  return <li class="product-list-item">{title}</li>
 }
 
 export default Products
