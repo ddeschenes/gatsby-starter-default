@@ -58,7 +58,7 @@ const renderProduct = product => {
   )
 
   return (
-    <li class="product-list-item">
+    <li class="product-list-item" key={product.id}>
       {title}
       {product.description && <p>{product.description}</p>}
     </li>
