@@ -13,7 +13,6 @@ const Products = () => {
             node {
               id
               title
-              description
               image {
                 childImageSharp {
                   fluid(maxWidth: 300) {
@@ -49,30 +48,28 @@ const renderProduct = product => {
       target="_blank"
     >
       {product.title}
-      {(product.image && (
-        <div className="block-center">
-          <Img
-            className="block-center"
-            fluid={product.image.childImageSharp.fluid}
-          />
-        </div>
-      )) || <div className="block-center gatsby-image-wrapper" />}
+      {renderImage(product)}
     </a>
   ) : (
     <Fragment>
       <h3 className="product-title">{product.title}</h3>
-      {(product.image && (
-        <div className="block-center">
-          <Img
-            className="block-center"
-            fluid={product.image.childImageSharp.fluid}
-          />
-        </div>
-      )) || <div className="block-center gatsby-image-wrapper" />}
+      {renderImage(product)}
     </Fragment>
   )
 
-  return <li class="product-list-item">{title}</li>
+  return (
+    <li class="product-list-item">
+      {title}
+      {product.description && <p>{product.description}</p>}
+    </li>
+  )
 }
+
+const renderImage = ({ image }) =>
+  (image && (
+    <div className="block-center">
+      <Img className="block-center" fluid={image.childImageSharp.fluid} />
+    </div>
+  )) || <div className="block-center gatsby-image-wrapper" />
 
 export default Products
