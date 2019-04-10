@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "lsb-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Site web pour Les Saveurs Boreales",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Daniel Deschenes <ddeschenes@outlook.com>",
   "dependencies": {
     "aws-amplify": "^1.1.23",
     "gatsby": "^2.3.3",
@@ -25,7 +25,7 @@
     "prettier": "^1.16.4"
   },
   "keywords": [
-    "gatsby"
+    "saveurs"
   ],
   "license": "MIT",
   "scripts": {
@@ -38,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ddeschenes/lsb-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ddeschenes/lsb-website/issues"
   }
 }
