@@ -19,7 +19,7 @@ const ImageHome = () => (
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
         alt="Russel Tremblay, fondateur."
-        style={{ "margin-bottom": "2rem" }}
+        style={{ "marginBottom": "2rem" }}
       />
     )}
   />
