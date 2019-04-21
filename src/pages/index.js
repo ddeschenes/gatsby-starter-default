@@ -48,23 +48,17 @@ const IndexPage = () => (
         <h1 className="text-center">Description du projet</h1>
         <ImageHome />
         <p>
-          Le manque de ressources statistiques et techniques des récoltes et le
-          besoin d’établir des liens entre les récolteurs et les acheteurs sont
-          les motivations principales de cette entreprise.
-        </p>
-        <p>
-          Nous sommes une entreprise qui se spécialise dans la récolte des
+          Les Saveurs Boréales est une entreprise qui se spécialise dans la récolte des
           produits du terroir Nord-Côtier tel que les plantes vertes (La
-          salicorne), les produits pharmaceutiques (gomme de sapin, le if,
-          tchaga), les thés (thé du Labrador), les algues, les champignons
-          (morille, chanterelle, bolet) et quelques autres. En plus des
+          salicorne, livèche écossaise), les thés (thé du Labrador, chaga), les champignons
+          (morille, chanterelle en tube, bolet, champignon crabe...), les épices (poivre des dunes, myrique baumier, baies de génévrier...). En plus des
           récoltes, la gestion des habitats nous tient à coeur afin d'assurer la
           continuité de la ressource naturelle.
         </p>
         <p>
           Une des priotités de l'entreprise est de faire la liaison entre les
           récolteurs et les acheteurs potentiels. Les industries
-          pharmaceutiques, les épiceries, les restaurants et le large public
+          pharmaceutiques, les épiceries, les restaurants et le public
           demeurent la clientèle visée.
         </p>
         <p>
@@ -74,37 +68,6 @@ const IndexPage = () => (
           Les Saveurs Boréales se démarque par son propre concept de la
           planification des récoltes et de la recherche continue.
         </p>
-        <br />
-        <h1 className="text-center">Les objectifs de l'entreprise</h1>
-        <ul>
-          <li>
-            Récolter, organiser, transformer et expédier les produits du terroir
-            Nord-Côtier.
-          </li>
-          <li>
-            Les acheteurs potentiels sont les industries pharmaceutiques, les
-            épiceries, les restaurants et le large public.
-          </li>
-          <li>
-            Pour la récolte, la grande région de la Côte-Nord nous semble bien
-            suffisante.
-          </li>
-          <li>
-            Pour les acheteurs : le Québec, le Canada et le reste du monde.
-          </li>
-          <li>
-            L’entreposage et l’expédition par camion ou par autobus pour
-            l’industrie pharmaceutique.
-          </li>
-          <li>
-            L’expédition quotidienne pour les restaurants, question de
-            fraîcheur.
-          </li>
-          <li>
-            Comptoirs dans les épiceries et boutiques ou maisons qui réunissent
-            les produits du terroir, des artisans et des producteurs régionaux.
-          </li>
-        </ul>
       </div>
     </Section>
     <Section
