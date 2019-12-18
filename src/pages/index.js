@@ -8,6 +8,8 @@ import ImageFirst from "../images/bg-nature-2.jpg"
 import ImageSecond from "../images/bg-nature-3.jpg"
 import ImageContact from "../images/bg-shipping-1.jpg"
 
+import LogoFacebook from "../images/f-logo-58.png"
+
 import Products from "../components/products/products"
 import ImageHome from "../components/images/image-home"
 
@@ -48,18 +50,19 @@ const IndexPage = () => (
         <h1 className="text-center">Description du projet</h1>
         <ImageHome />
         <p>
-          Les Saveurs Boréales est une entreprise qui se spécialise dans la récolte des
-          produits du terroir Nord-Côtier tel que les plantes vertes (La
-          salicorne, livèche écossaise), les thés (thé du Labrador, chaga), les champignons
-          (morille, chanterelle en tube, bolet, champignon crabe...), les épices (poivre des dunes, myrique baumier, baies de génévrier...). En plus des
-          récoltes, la gestion des habitats nous tient à coeur afin d'assurer la
-          continuité de la ressource naturelle.
+          Les Saveurs Boréales est une entreprise qui se spécialise dans la
+          récolte des produits du terroir Nord-Côtier tel que les plantes vertes
+          (La salicorne, livèche écossaise), les thés (thé du Labrador, chaga),
+          les champignons (morille, chanterelle en tube, bolet, champignon
+          crabe...), les épices (poivre des dunes, myrique baumier, baies de
+          génévrier...). En plus des récoltes, la gestion des habitats nous
+          tient à coeur afin d'assurer la continuité de la ressource naturelle.
         </p>
         <p>
           Une des priotités de l'entreprise est de faire la liaison entre les
           récolteurs et les acheteurs potentiels. Les industries
-          pharmaceutiques, les épiceries, les restaurants et le public
-          demeurent la clientèle visée.
+          pharmaceutiques, les épiceries, les restaurants et le public demeurent
+          la clientèle visée.
         </p>
         <p>
           Le champ d’intervention de la recherche et développement de nouveaux
@@ -103,6 +106,11 @@ const IndexPage = () => (
               info@lessaveursboreales.com
             </a>
           </p>
+          <div className="section-socials">
+            <a href="https://www.facebook.com/lessaveursboreales">
+              <img alt="Facebook" src={LogoFacebook} />
+            </a>
+          </div>
         </div>
       </div>
     </Section>
