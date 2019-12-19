@@ -643,3 +643,9 @@ h1 {
 .font-secondary {
   font-family: "Dancing Script", cursive;
 }
+
+.section-socials img {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+}
